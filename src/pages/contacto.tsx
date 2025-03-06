@@ -240,10 +240,10 @@ const Contact: React.FC = () => {
           {/* Información de contacto */}
           <div className="space-y-4">
             <p className="text-indigo-400">
-              Correo: <a href="mailto:contacto@ramireztech.com" className="hover:underline">contacto@ramireztech.com</a>
+              Correo: <a href="mailto:barucramirez0617@gmail.com" className="hover:underline">barucramirez0617@gmail.com</a>
             </p>
             <p className="text-indigo-400">
-              Teléfono: <a href="tel:+1234567890" className="hover:underline">+1 (234) 567-890</a>
+              Teléfono: <a href="tel:+4651304889" className="hover:underline">+(465) 130 4889</a>
             </p>
             <p className="text-indigo-400">Redes Sociales: @RamirezTech</p>
           </div>
