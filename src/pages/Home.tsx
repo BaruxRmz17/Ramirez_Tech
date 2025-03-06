@@ -191,7 +191,7 @@ const Home: React.FC = () => {
                     JM
                   </div>
                   <div>
-                    <p className="text-white font-semibold">Juan Morales</p>
+                    <p className="text-white font-semibold">Israel Ramirez</p>
                     <p className="text-gray-400 text-sm">Gerente, Inmobiliaria La Paz</p>
                   </div>
                 </div>
@@ -209,8 +209,8 @@ const Home: React.FC = () => {
                     LR
                   </div>
                   <div>
-                    <p className="text-white font-semibold">Laura Ramírez</p>
-                    <p className="text-gray-400 text-sm">Directora, Ococalli Logística</p>
+                    <p className="text-white font-semibold">Gustavo Martinez</p>
+                    <p className="text-gray-400 text-sm">CEO, Ococalli Logística</p>
                   </div>
                 </div>
               </div>
@@ -227,8 +227,8 @@ const Home: React.FC = () => {
                     AP
                   </div>
                   <div>
-                    <p className="text-white font-semibold">Ana Pérez</p>
-                    <p className="text-gray-400 text-sm">Directora, Colegio Rehilete</p>
+                    <p className="text-white font-semibold">Juan Lopez</p>
+                    <p className="text-gray-400 text-sm">Maestro, CBTis 168 </p>
                   </div>
                 </div>
               </div>
