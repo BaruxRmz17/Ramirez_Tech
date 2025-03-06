@@ -188,7 +188,7 @@ const Home: React.FC = () => {
                 </p>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-indigo-500 flex items-center justify-center text-white font-semibold"> {/* Avatar simulado */}
-                    JM
+                    IR
                   </div>
                   <div>
                     <p className="text-white font-semibold">Israel Ramirez</p>
@@ -206,7 +206,7 @@ const Home: React.FC = () => {
                 </p>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-purple-500 flex items-center justify-center text-white font-semibold">
-                    LR
+                    GM
                   </div>
                   <div>
                     <p className="text-white font-semibold">Gustavo Martinez</p>
@@ -224,7 +224,7 @@ const Home: React.FC = () => {
                 </p>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-indigo-400 flex items-center justify-center text-white font-semibold">
-                    AP
+                    JL
                   </div>
                   <div>
                     <p className="text-white font-semibold">Juan Lopez</p>
