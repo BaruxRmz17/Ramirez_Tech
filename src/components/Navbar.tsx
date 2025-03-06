@@ -124,7 +124,7 @@ const Navbar: React.FC = () => {
             Inicio
           </NavLink>
           <NavLink
-            to="/about"
+            to="/sobre-mi"
             onClick={toggleMobileMenu}
             className={({ isActive }) =>
               `block text-lg font-medium transition-all duration-300 ease-in-out ${
@@ -135,7 +135,7 @@ const Navbar: React.FC = () => {
             Sobre Nosotros
           </NavLink>
           <NavLink
-            to="/services"
+            to="/servicios"
             onClick={toggleMobileMenu}
             className={({ isActive }) =>
               `block text-lg font-medium transition-all duration-300 ease-in-out ${
@@ -146,7 +146,18 @@ const Navbar: React.FC = () => {
             Servicios
           </NavLink>
           <NavLink
-            to="/contact"
+            to="/servicios"
+            onClick={toggleMobileMenu}
+            className={({ isActive }) =>
+              `block text-lg font-medium transition-all duration-300 ease-in-out ${
+                isActive ? 'text-indigo-500' : 'text-gray-300 hover:text-indigo-500'
+              }`
+            }
+          >
+            Nuestros Proyectos
+          </NavLink>
+          <NavLink
+            to="/contacto"
             onClick={toggleMobileMenu}
             className={({ isActive }) =>
               `block text-lg font-medium transition-all duration-300 ease-in-out ${
