@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
             </a>
             {/* Ícono de LinkedIn */}
             <a
-              href="#"
+              href="www.linkedin.com/in/barux-undefined-20744634b"
               className="text-gray-400 hover:text-indigo-500 transform hover:scale-110 transition-all duration-300 ease-in-out"
               aria-label="LinkedIn"
             >
