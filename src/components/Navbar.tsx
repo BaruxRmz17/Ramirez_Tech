@@ -146,7 +146,7 @@ const Navbar: React.FC = () => {
             Servicios
           </NavLink>
           <NavLink
-            to="/servicios"
+            to="/Proyectos"
             onClick={toggleMobileMenu}
             className={({ isActive }) =>
               `block text-lg font-medium transition-all duration-300 ease-in-out ${
