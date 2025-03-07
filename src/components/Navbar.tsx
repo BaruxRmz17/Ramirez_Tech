@@ -8,11 +8,24 @@ const Navbar: React.FC = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  // Función para hacer scroll al inicio
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+    // Cerrar el menú móvil si está abierto
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <nav className="bg-gray-950 p-6 text-white shadow-lg fixed top-0 left-0 w-full z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-2xl font-semibold tracking-tight text-indigo-600 hover:text-indigo-500 transition-colors duration-300 ease-in-out cursor-pointer">
+        <h1 
+          className="text-2xl font-semibold tracking-tight text-indigo-600 hover:text-indigo-500 transition-colors duration-300 ease-in-out cursor-pointer"
+          onClick={scrollToTop}
+        >
           Ramirez Tech
         </h1>
 
@@ -20,6 +33,7 @@ const Navbar: React.FC = () => {
         <div className="hidden md:flex items-center space-x-8">
           <NavLink
             to="/"
+            onClick={scrollToTop}
             className={({ isActive }) =>
               `relative text-lg font-medium transition-all duration-300 ease-in-out px-3 py-2 ${
                 isActive
@@ -32,6 +46,7 @@ const Navbar: React.FC = () => {
           </NavLink>
           <NavLink
             to="/sobre-mi"
+            onClick={scrollToTop}
             className={({ isActive }) =>
               `relative text-lg font-medium transition-all duration-300 ease-in-out px-3 py-2 ${
                 isActive
@@ -44,6 +59,7 @@ const Navbar: React.FC = () => {
           </NavLink>
           <NavLink
             to="/servicios"
+            onClick={scrollToTop}
             className={({ isActive }) =>
               `relative text-lg font-medium transition-all duration-300 ease-in-out px-3 py-2 ${
                 isActive
@@ -56,6 +72,7 @@ const Navbar: React.FC = () => {
           </NavLink>
           <NavLink
             to="/Proyectos"
+            onClick={scrollToTop}
             className={({ isActive }) =>
               `relative text-lg font-medium transition-all duration-300 ease-in-out px-3 py-2 ${
                 isActive
@@ -68,6 +85,7 @@ const Navbar: React.FC = () => {
           </NavLink>
           <NavLink
             to="/contacto"
+            onClick={scrollToTop}
             className={({ isActive }) =>
               `relative text-lg font-medium transition-all duration-300 ease-in-out px-3 py-2 ${
                 isActive
@@ -114,7 +132,7 @@ const Navbar: React.FC = () => {
         <div className="px-4 py-4 space-y-4">
           <NavLink
             to="/"
-            onClick={toggleMobileMenu}
+            onClick={scrollToTop}
             className={({ isActive }) =>
               `block text-lg font-medium transition-all duration-300 ease-in-out ${
                 isActive ? 'text-indigo-500' : 'text-gray-300 hover:text-indigo-500'
@@ -125,7 +143,7 @@ const Navbar: React.FC = () => {
           </NavLink>
           <NavLink
             to="/sobre-mi"
-            onClick={toggleMobileMenu}
+            onClick={scrollToTop}
             className={({ isActive }) =>
               `block text-lg font-medium transition-all duration-300 ease-in-out ${
                 isActive ? 'text-indigo-500' : 'text-gray-300 hover:text-indigo-500'
@@ -136,7 +154,7 @@ const Navbar: React.FC = () => {
           </NavLink>
           <NavLink
             to="/servicios"
-            onClick={toggleMobileMenu}
+            onClick={scrollToTop}
             className={({ isActive }) =>
               `block text-lg font-medium transition-all duration-300 ease-in-out ${
                 isActive ? 'text-indigo-500' : 'text-gray-300 hover:text-indigo-500'
@@ -147,7 +165,7 @@ const Navbar: React.FC = () => {
           </NavLink>
           <NavLink
             to="/Proyectos"
-            onClick={toggleMobileMenu}
+            onClick={scrollToTop}
             className={({ isActive }) =>
               `block text-lg font-medium transition-all duration-300 ease-in-out ${
                 isActive ? 'text-indigo-500' : 'text-gray-300 hover:text-indigo-500'
@@ -158,7 +176,7 @@ const Navbar: React.FC = () => {
           </NavLink>
           <NavLink
             to="/contacto"
-            onClick={toggleMobileMenu}
+            onClick={scrollToTop}
             className={({ isActive }) =>
               `block text-lg font-medium transition-all duration-300 ease-in-out ${
                 isActive ? 'text-indigo-500' : 'text-gray-300 hover:text-indigo-500'
