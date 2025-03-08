@@ -74,6 +74,15 @@ const projects: Project[] = [
     category: 'Educación',
     impact: 'Redujo el tiempo de pasar lista en un 50%, mejorando la organización en el aula.',
   },
+  {
+    title: 'Cafe Tec',
+    description:' Es una pagina web la cual ayuda a eficientar los tiempos de los alumnos y hacer mas faciles los pedidos ya que se ahorran filas y les hes mas rapido.',
+    image: '/web7.png',
+    technologies: ['TypeScript', 'React', 'Supabase', 'TailwindCSS'],
+    liveLink: 'https://cafetecpabe.netlify.app/',
+    githubLink: 'https://github.com/BaruxRmz17/cafe_tec',    category: 'Educación',
+    impact: 'Redujo el tiempo de espera de los alumnos en la fila de la coperativa. Ademas ayudo en el aumneto de pedidos y venta de la cafeteria.',
+  },
 ];
 
 const Projects: React.FC = () => {
